@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    text-align: center;
+    color: white;
+    animation: aparecer ease-in-out 2s forwards;
+  }
+  
+  #gameContainer {
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #wordDisplay {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  #guessInput {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    padding: 10px;
+  }
+  
+  #guessButton {
+    padding: 10px 20px;
+    margin-top: 45px;
+    text-decoration: none;
+    border: 2px rgb(255, 255, 255) solid;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    transition-duration: 0.1s;
+    cursor: pointer;
+    background-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #guessButton:hover {
+    background-color: white;
+    color: black;
+}
+  
+@keyframes aparecer {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+  #wordDisplay {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 570px) {
+  #wordDisplay {
+    font-size: 22px;
+  }
+}
+
+
+@media (max-width: 420px) {
+  #wordDisplay {
+    font-size: 20px;
+  }
+}

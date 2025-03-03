@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="Css\hangman.css" />
+  </head>
+  <body>
+    <div id="gameContainer">
+      <div id="wordDisplay"></div>
+      <div>
+        <input type="text" id="guessInput" maxlength="1" />
+        <button id="guessButton">Adivinar</button>
+      </div>
+      <p id="message"></p>
+      <p>Intentos restantes: <span id="attempts"></span></p>
+      <p>Letras incorrectas: <span id="wrongLetters"></span></p>
+    </div>
+    <script src="Java\game.js"></script>
+  </body>
+</html>
