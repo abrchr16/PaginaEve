@@ -30,6 +30,10 @@ body {
     max-width: 600px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .sesion {
     padding: 10px 20px;
     margin-top: 45px;
