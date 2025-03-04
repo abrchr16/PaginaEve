@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#titulo {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.hidden-letter {
+    
+    visibility: hidden;
+}
+
+input {
+    padding: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 15px;
+    text-decoration: none;
+    border: 2px rgb(255, 255, 255) solid;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    transition-duration: 0.1s;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+button:hover {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+
+button:disabled,
+button.disabled {
+    background-color: gray !important;
+    color: white !important;
+    cursor: default;
+    border-color: gray;
+}
+
+button:disabled:hover,
+button.disabled:hover {
+    background-color: gray !important;
+    color: white !important;
+}
+
+
+.word-container {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.incorrect {
+    color: red;
+}
+
+.disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
