@@ -2,11 +2,72 @@
 <html>
     <head>
         <title>Playground</title>
-        <link rel="stylesheet" href="Css/styles.css">
+        <link rel="stylesheet" href="Css\main.css">
     </head>
     <body>
-        <div id="Bienvenida">
-            ¡Buenos dias Eve!
-        </div>
+
+        <header>
+            <h1 class="titulo">
+              ¡Buenos dias Eve!
+            </h1>
+            <h2 class="boton">
+                <a href="Mensajes.html" class="enlace">Mensajes</a>
+            </h2>
+        </header>
+
+        <main>
+
+            <div id="fila">
+
+                <div class="icono">
+
+                    <a href="Hangman.html">
+
+                        <svg width="210" height="250" viewBox="0 0 150 260" xmlns="http://www.w3.org/2000/svg" class="ahorcado">
+
+                            <line x1="20" y1="230" x2="100" y2="230" stroke="white" stroke-width="5" />
+                            <line x1="60" y1="230" x2="60" y2="50" stroke="white" stroke-width="5" />
+                            <line x1="60" y1="50" x2="140" y2="50" stroke="white" stroke-width="5" />
+                            <line x1="140" y1="50" x2="140" y2="80" stroke="white" stroke-width="5" />
+                    
+                            <circle cx="140" cy="100" r="20" stroke="white" stroke-width="5" fill="none" />
+    
+                            <line x1="140" y1="120" x2="140" y2="170" stroke="white" stroke-width="5" />
+
+                        </svg>
+
+                    </a>
+
+                    <h2>Ahorcado</h2>
+                </div>
+
+                <div class="icono">
+
+                    <a href="Crucigrama.html">
+
+                        <svg width="210" height="210" viewBox="0 -25 180 260" xmlns="http://www.w3.org/2000/svg" class="ahorcado">
+
+                            <rect width="60" height="60" fill="none" stroke="white" stroke-width="5" y="5" x="5"></rect>
+                            <rect x="75" width="60" height="60" fill="none" stroke="white" stroke-width="5" y="5"></rect>
+                    
+                            <rect x="75" y="75" width="60" height="60" fill="none" stroke="white" stroke-width="5"></rect>
+                            <rect y="75" width="60" height="60" fill="none" stroke="white" stroke-width="5" x="145"></rect>
+                    
+                            <rect width="60" height="60" fill="none" stroke="white" stroke-width="5" x="5" y="145"></rect>
+                            <rect width="60" height="60" fill="none" stroke="white" stroke-width="5" x="75" y="145"></rect>
+                    
+                        </svg>
+
+                    </a>
+
+                    <h2>Crucigrama</h2>
+
+                </div>
+
+            </div>
+
+            
+        </main>
+
     </body>
 </html>
