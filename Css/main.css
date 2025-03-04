@@ -72,6 +72,16 @@ main {
     cursor: pointer;
 }
 
+.ahorcado-bloqueado {
+    height: 140px;
+    width: 140px;
+    padding: 15px;
+    background-color: gray;
+    border: 5px solid gray;
+    border-radius: 100%;
+    cursor: default;
+}
+
 .ahorcado:hover {
     height: 150px;
     width: 150px;
@@ -80,6 +90,8 @@ main {
     transition: 0.3s;
 }
 
+
+.ahorcado path,
 .ahorcado line,
 .ahorcado circle,
 .ahorcado rect {
@@ -88,13 +100,14 @@ main {
     transition: stroke 0.1s;
 }
 
-
+.ahorcado:hover path,
 .ahorcado:hover line,
 .ahorcado:hover circle,
 .ahorcado:hover rect {
     stroke: rgb(85, 85, 85);
     transition: stroke 0.3s;
 }
+
 
 h1,h2,h3,p {
     cursor: default;
