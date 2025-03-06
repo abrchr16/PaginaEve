@@ -27,11 +27,12 @@ body {
     font-size: 24px;
     margin-top: 20px;
     margin-bottom: -10px;
-    padding: 10px;
+    padding: 6px;
     border: 2px solid white;
     background-color: black;
     color: white;
     border-radius: 5px;
+    text-aling: center;
   }
   
   #guessButton {
