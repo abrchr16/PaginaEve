@@ -11,6 +11,24 @@ body {
     animation: aparecer ease-in-out 2s forwards;
 }
 
+#volver {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+
+#volver:hover {
+    background-color: gray;
+    border-radius: 5px;
+}
+
 h2 {
     color: white;
     padding-bottom: 20px;
