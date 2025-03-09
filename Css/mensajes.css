@@ -15,8 +15,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70px;   /* Ajusta según necesites */
-    height: 70px;  /* Igual que width para hacerlo cuadrado */
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
 }
 
 #volver:hover {
